@@ -1,0 +1,19 @@
+.node {
+  /* background: #d567c8; */
+  stroke: #333;
+  stroke-width: 1.5px;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+}
+
+.MuiPopper-root{
+  transform: translate3d(-26.8px, 180.4px, 0px) !important;
+  border-radius: 10px !important;
+}
+
+/* .mc-table{
+  transform: translate(900.8px,
+    180.4px,
+    0px) !important;
+} */
