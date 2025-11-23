@@ -102,20 +102,45 @@ Then open your browser and navigate to [http://localhost:5173](http://localhost:
 ## 🪩 File Structure
 
 ```
-src/
-├── App.jsx
-├── main.jsx
-├── index.css
-└── canvas/
-    ├── components/
-    │   ├── Content/
-    │   │   └── index.jsx
-    │   └── GraphCanvas/
-    │       ├── index.jsx
-    │       └── styles.css
-    └── utils/
-        ├── algorithms.js
-        └── utils.js
+SmartRoute/
+├── public/
+│   ├── cityData.json
+│   ├── vite.png
+│   └── vite.svg
+│
+├── src/
+│   ├── assets/
+│   │   └── react.svg
+│   │
+│   ├── canvas/
+│   │   ├── components/
+│   │   │   ├── Content/
+│   │   │   │   └── index.jsx
+│   │   │   └── GraphCanvas/
+│   │   │       ├── index.jsx
+│   │   │       └── styles.css
+│   │   │
+│   │   └── utils/
+│   │       ├── algorithms.js
+│   │       └── utils.js
+│   │
+│   ├── Header/
+│   │   ├── index.jsx
+│   │   └── style.css
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── README.md
+├── tailwind.config.js
+└── vite.config.js
 ```
 
 ---
