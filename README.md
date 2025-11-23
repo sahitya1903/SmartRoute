@@ -99,7 +99,7 @@ Then open your browser and navigate to [http://localhost:5173](http://localhost:
 
 ---
 
-## 🪩 File Structure
+## 📂 Folder Structure
 
 ```
 SmartRoute/
